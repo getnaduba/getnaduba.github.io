@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="naduba - A digital library that does not suck."
+    />
+    <meta name="author" content="Nicolas Stellwag" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>naduba - A digital library that does not suck.</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="content-container">
+        <h1>naduba</h1>
+        <p class="tagline">A digital library that does not suck.</p>
+      </div>
+    </header>
+    <main>
+      <div class="content-container">
+        <section>
+          <h2>Problem</h2>
+          <p>
+            You don't own your Kindle books. Amazon merely sells you a license
+            to access them. That means they can just decide to pull books that
+            you've bought at any point and you can do nothing about it. To be
+            fair, in practice they generally don't, but they
+            <a
+              href="https://www.theguardian.com/technology/2009/jul/17/amazon-kindle-1984"
+              >can</a
+            >. Now that
+            <a
+              href="https://www.theverge.com/news/612898/amazon-removing-kindle-book-download-transfer-usb"
+              >they don't even let you make backups</a
+            >, I've decided to move away from the platform.
+          </p>
+          <p>
+            The only real alternative is Kobo, but their books are DRM protected
+            as well and they don't synchronize highlights and annotations for
+            non-Kobo books.
+          </p>
+          <p>
+            There are great (mostly Android based)
+            <a href="https://ewritable.com/ereaders/search-comparison-table"
+              >ebook readers</a
+            >
+            and
+            <a href="https://ewritable.net/comparison-tables/comparison-table/"
+              >e-ink tablets</a
+            >, all with horrible software. There are great open source projects
+            for
+            <a href="https://calibre-ebook.com">library mangement</a>
+            and
+            <a href="https://koreader.rocks">reading</a>, but nothing that just
+            works.
+          </p>
+          <h2>Vision</h2>
+          <p>
+            You go to this website. You search for a book you want to read. You
+            will be redirected to a DRM-free seller, buy it, and it's available
+            in your naduba library. Already bought it from some other seller? No
+            problem, just upload the epub / pdf.
+          </p>
+          <p>
+            To read it, you buy the e-ink device you want, install the naduba
+            app, open it, log in, and your whole library is there. You can make
+            highlights, you can attach normal or handwritten sticky notes to
+            those highlights. If you feel like it, you scribble right into the
+            book.
+          </p>
+          <p>
+            When you finished your book and want to revisit your notes, you
+            simply click on the book on this website. It opens, all highlights,
+            sticky notes, and handwritten comments on pages were automatically
+            synchronized. (With your phone, tablet, and second ebook reader as
+            well, obviously.) Btw, we're living in the 21st century, so your
+            handwritten stuff is searchable.
+          </p>
+          <p>
+            That's the case for all of your Substacks, saved websites, and RSS
+            feeds too. Those are ingested and kept in a reflowable text-only
+            format so you can read and annotate them on your ebook reader
+            without getting eye cancer.
+          </p>
+          <p>
+            It's your library and you own it. Having everything in the cloud is
+            comfortable because it enables all of those nice features you just
+            used. You still want a local copy. No problem, you simply click on
+            the export all button and it starts downloading everything,
+            including all highlights and annotations, to your computer.
+          </p>
+          <h2>The Plan</h2>
+          <p>
+            <b>1.</b> An epub web viewer that shows highlights, annotations, and
+            handwritten annotations from BOOX devices (because that's what I
+            bought) on your pc.
+          </p>
+          <p>
+            <b>2.</b> An Android app that syncs annotations, highlights, and
+            reading progress from the device's reading application
+            <i>one-way</i> to naduba. (BOOX only)
+          </p>
+          <p><b>3.</b> Support other devices, support pdf.</p>
+          <p>
+            <b>4.</b> The Android app becomes a reader and editor, which enables
+            two-way synchronization.
+          </p>
+          <p>
+            <b>...</b> (we will see about the other stuff when it's time, this
+            is a sideproject after all)
+          </p>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="content-container">
+        <!-- <p>&copy; 2025 naduba. All rights reserved.</p> -->
+        <p>by <a href="https://nicolasstellwag.com">Nicolas Stellwag</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
